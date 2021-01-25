@@ -29,7 +29,7 @@ ul, li, a{
   text-decoration: none;
   list-style: none;
   font-weight:600;
-  font-size: 14px;
+  font-size: 13px;
   color: #33475B;
 }
 i.up{
@@ -78,20 +78,63 @@ a.hubfree{
   font-weight: 600;
   font-size: 12px;
   }
-  hr{
-    background-color: #33475B;
+hr{
+  background-color: #33475B;
+}
+img.logo{
+  display: inline-block;
+  top: 25px;
+  position: absolute;
+}
+nav.barlato{
+  position: absolute;
+  right: 0;
+}
+.barlato ul li a:not(.about){
+  padding: 5px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.containerprincipale{
+  width: 100%;
+  height: 550px;
+  background-color: #FFF4EF;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: 85%;
+  background-position: 120% 10%;
+}
+.sottocontainer{
+  margin: auto;
+  width: 70%;
+  height: 500px;
+  position: relative;
   }
-  img.logo{
-    display: inline-block;
-    top: 25px;
+  .taglio-alto{
     position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
   }
-  nav.barlato{
-    position: absolute;
-    right: 0;
+  h1{
+    font-size: 41px;
+    font-weight: 700;
+    width: 55%;
+    color: #33475B;
+    margin-bottom: 20px;
   }
-  .barlato ul li a:not(.about){
-    padding: 8px;
-    font-size: 14px;
+  .font-taglio{
+    width: 50%;
+    color: #33475B;
+    font-size: 13px;
     font-weight: 600;
+    line-height: 2;
+    margin-bottom: 40px;
+  }
+  a.hubfree.taglio{
+    margin-left: 0;
+    padding: 20px 30px;
+  }
+  p.font-taglio.small{
+    font-size: 10px;
+    margin-top: 40px;
   }
