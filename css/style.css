@@ -175,7 +175,8 @@ nav.barlato{
     transform: translate(-50%, -50%);
     text-align: center;
     color: #33475B;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 13px;
     line-height: 2;
+    font-family: inherit;
   }
