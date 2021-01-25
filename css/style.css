@@ -7,3 +7,41 @@ body{
   background-color: lightgray;
   font-family: 'Montserrat', sans-serif;
 }
+.containerbaralta{
+  width: 70%;
+  height: 100px;
+  background-color: green;
+  margin: auto;
+  position: relative;
+  padding: 40px 0;
+}
+nav, ul, li{
+  display: inline-block;
+}
+ul, li, a{
+  text-decoration: none;
+  list-style: none;
+  font-weight:500;
+  font-size: 15px;
+  color: #33475B;
+}
+i.up{
+margin-right: 5px;
+}
+.sxbar{
+color: #33475B;
+
+}
+.dxbar{
+  right: 0;
+  background-color: pink;
+  position: absolute;
+}
+a.login{
+  border: 2px groove white;
+  padding: 8px 27px;
+}
+a.hubfree{
+  border: 2px white;
+  padding: 8px 10px;
+  }
