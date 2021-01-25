@@ -102,7 +102,7 @@ nav.barlato{
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
   background-size: 85%;
-  background-position: 120% 10%;
+  background-position: 120% 3%;
 }
 .sottocontainer{
   margin: auto;
@@ -137,4 +137,45 @@ nav.barlato{
   p.font-taglio.small{
     font-size: 10px;
     margin-top: 40px;
+  }
+  .separatore{
+    height: 80px;
+    background-color: #AFEBE4;
+  }
+  .rigabold{
+    height: 5px;
+    background-color: #33475B;
+  }
+  .main-contenitore{
+    position: relative;
+  }
+  .contenitore-rubik{
+    width: 70%;
+    height: 350px;
+    margin: auto;
+    background-image: url(../img/rubik.webp);
+    background-repeat: no-repeat;
+    background-size: 23%;
+    background-position: top center;
+    margin-top: 30px;
+  }
+  h2{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 700;
+    color: #33475B;
+  }
+  .text-main{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #33475B;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 2;
   }
