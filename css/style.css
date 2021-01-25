@@ -7,12 +7,20 @@ body{
   background-color: #F4F9FD;
   font-family: 'Montserrat', sans-serif;
 }
-.containerbaralta{
+.containerbaralta,
+.containernavdue{
   width: 70%;
   height: 80px;
   margin: auto;
   position: relative;
   padding: 30px 0;
+}
+.containerbarbassa{
+  height: 80px;
+  margin: auto;
+  display: block;
+  background-color: #FFFFFF;
+  position: relative;
 }
 nav, ul, li{
   display: inline-block;
@@ -30,7 +38,7 @@ margin-right: 5px;
 .english{
   vertical-align: middle;
 }
-i.fa-angle-down{
+i.angle{
   padding: 0 8px;
   font-size: 18px;
   vertical-align: middle;
@@ -46,7 +54,6 @@ i.upsearch{
 }
 .sxbar{
 color: #33475B;
-
 }
 .dxbar{
   right: 0;
@@ -73,4 +80,18 @@ a.hubfree{
   }
   hr{
     background-color: #33475B;
+  }
+  img.logo{
+    display: inline-block;
+    top: 25px;
+    position: absolute;
+  }
+  nav.barlato{
+    position: absolute;
+    right: 0;
+  }
+  .barlato ul li a:not(.about){
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 600;
   }
