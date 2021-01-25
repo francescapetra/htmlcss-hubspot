@@ -149,6 +149,9 @@ nav.barlato{
   .main-contenitore{
     position: relative;
   }
+  .main-contenitore{
+   background-color: #F4F9FD;
+  }
   .contenitore-rubik{
     width: 70%;
     height: 350px;
@@ -179,4 +182,24 @@ nav.barlato{
     font-size: 13px;
     line-height: 2;
     font-family: inherit;
+  }
+  .contenitore-free-hub{
+    width: 70%;
+    height: 350px;
+    background-color: white;
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+  }
+  .learn-more{
+    height: 300px;
+    width: 33%;
+    position: absolute;
+  }
+  img.libro{
+    width: 40%;
+    object-fit: contain;
+    margin-left: 30%;
+    margin-top: 20%;
+    display: block;
   }
