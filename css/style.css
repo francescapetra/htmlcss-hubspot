@@ -452,3 +452,11 @@ nav.barlato{
       background-color: lightblue;
       float: right;
     }
+    p.in-over{
+      display: inline;
+    }
+    p.cento{
+      font-weight: 500;
+      font-size: 19px;
+      display: inline;
+    }
