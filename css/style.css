@@ -331,7 +331,6 @@ nav.barlato{
     .gradiente-container{
       width: 70%;
       height: 550px;
-      background-color: lightgreen;
       margin: auto;
       padding-top: 35px;
     }
@@ -358,7 +357,6 @@ nav.barlato{
     .box{
       width: 25%;
       height: 150px;
-      background-color: lightblue;
       float: left;
     }
     .box.uno{
@@ -376,13 +374,22 @@ nav.barlato{
     }
     .box.due{
       border-right: 1px solid white;
+      text-align: center;
+      color: #ffffff;
+      padding: 20px 0;
+    }
+    .box.quattro{
+      text-align: center;
+      color: #ffffff;
+      padding: 20px 0;
     }
     img.agency{
       width: 15%;
       display: block;
       margin: auto;
     }
-    img.blog{
+    img.blog,
+    img.connect{
       width: 23%;
       display: block;
       margin: auto;
@@ -392,8 +399,15 @@ nav.barlato{
       display: block;
       margin: auto;
     }
-    img.inbound{
+    img.inbound,
+    img.growth{
       width: 35%;
+      display: block;
+      margin: auto;
+    }
+    img.globe,
+    img.followers{
+      width: 12%;
       display: block;
       margin: auto;
     }
