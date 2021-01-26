@@ -8,7 +8,8 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 .contenitore-free-hub::after,
-.col-container::after{
+.col-container::after,
+.gradiente-container::after{
  content: "";
  display: block;
  clear: both;
@@ -424,8 +425,14 @@ nav.barlato{
       vertical-align: middle;
       font-weight: 500;
       font-size: 19px;
-
     }
     p.sotto-paragrafo{
       font-size: 10px;
+    }
+    .ultima-section{
+      background-color: #FFFFFF;
+    }
+    .ultimo-container{
+      width: 70%;
+      height: 650px;
     }
