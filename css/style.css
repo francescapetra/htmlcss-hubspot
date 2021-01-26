@@ -7,7 +7,8 @@ body{
   background-color: #F4F9FD;
   font-family: 'Montserrat', sans-serif;
 }
-.contenitore-free-hub::after{
+.contenitore-free-hub::after,
+.col-container::after{
  content: "";
  display: block;
  clear: both;
@@ -153,11 +154,10 @@ nav.barlato{
     height: 5px;
     background-color: #33475B;
   }
-  .main-contenitore{
+  .main-contenitore,
+   section.colonne{
     position: relative;
-  }
-  .main-contenitore{
-   background-color: #F4F9FD;
+    background-color: #F4F9FD;
   }
   .contenitore-rubik{
     width: 70%;
@@ -261,29 +261,37 @@ nav.barlato{
   .col-container{
     width: 70%;
     height: 600px;
-    background-color: lightblue;
     margin: auto;
     margin-top: 50px;
   }
   .col{
     width: 30%;
-    height: 550px;
+    height: 580px;
     background-color: #ffffff;
     float: left;
     border-radius: 5px;
     box-shadow: 3px 2px 2px 2px #E6ECF1;
+    margin:0;
   }
   .col.ct{
     margin: 0 53px;
   }
   img.img-colonne{
-      width: 30%;
+      width: 26%;
       object-fit: contain;
       display: block;
       margin: auto;
       margin-top: 20px;
     }
-    .col.sx{
+    img.img-colonne.valigia{
+      width: 32%;
+    }
+    img.img-colonne.desk{
+      width: 23%;
+    }
+    .col.sx,
+    .col.dx,
+    .col.ct{
       position: relative;
     }
     .titolo-col{
@@ -307,9 +315,10 @@ nav.barlato{
       margin: auto;
     }
     p.popular.in-col{
-      margin: 30px 20%;
+      margin: 30px 24%;
       text-align: center;
     }
-    li.sequenza{
-      margin: 0;
+    a.hubfree.learn.more{
+      position: absolute;
+      margin-top: 35px;
     }
