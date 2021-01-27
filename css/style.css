@@ -528,7 +528,6 @@ nav.barlato{
     .pie-di-pagina{
       width: 100%;
       height: 220px;
-      background-color: green;
       margin-top: 40px;
     }
     /* .sub-colonne:not(:last-child){} */
@@ -545,7 +544,8 @@ nav.barlato{
     }
     a.link-footer,
     a.slang,
-    a.link-end{
+    a.link-end-up,
+    a.link-end-down{
       color: #ffffff;
       font-weight: 500;
       font-size: 14px;
@@ -563,7 +563,8 @@ nav.barlato{
     li.ultima-sequenza{
       margin: 20px 0;
     }
-    .social-network{
+    .social-network,
+    p.copyright{
       color: #ffffff;
       font-size: 16px;
       margin-right: 10px;
@@ -573,23 +574,36 @@ nav.barlato{
      padding-top: 70px;
     }
     hr.end-separatore{
-      height: 1px;
       background-color: #ffffff;
-      margin-top: 20px;
+      margin-top: 10px;
     }
-    div.container-nav-fine{
-      height: 100%;
+    div.container-nav-fine,
+    div.link-fine{
+      height: 100px;
+      width: 50%;
       position: relative;
+      float: left;
     }
     img.logo-gray{
-      background-color: red;
-      display: inline-block;
       position: absolute;
       left: 0;
-      margin-top: 20px;
+      top: 20px;
+      margin-top: 10px;
     }
-    a.link-end{
-      /* position: absolute; */
-      display: inline;
-      margin-right: 10px;
+    p.copyright,
+    a.link-end-up,
+    a.link-end-down{
+      bottom: 15px;
+      position: absolute;
+    }
+    a.copyright{
+      left: 0;
+    }
+    a.link-end-up{
+      right: 0px;
+      bottom: 45px;
+    }
+    a.link-end-down{
+      right: 17%;
+      bottom: 45px;
     }
