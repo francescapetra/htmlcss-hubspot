@@ -505,12 +505,46 @@ nav.barlato{
       margin-left: 65px;
     }
     footer{
-      height: 500px;
+      height: 550px;
       background-color: #33475B;
     }
     .footer-container{
       width: 70%;
-      height: 500px;
-      background-color: blue;
+      height: 550px;
+      background-color: pink;
       margin: auto;
+      padding-top: 20px;
+    }
+    .sub-colonne{
+      width: 23%;
+      height: 250px;
+      background-color: green;
+      float: left;
+      margin-right: 20px;
+      padding-top: 10px;
+    }
+    /* .sub-colonne:not(:last-child){} */
+    h5{
+      color: #ffffff;
+      font-weight: bold;
+      text-align: left;
+      font-size: 15px;
+      margin-bottom: 25px;
+    }
+    li.sequenza.credit-lista{
+      line-height: 2;
+    }
+    a.link-footer{
+      color: #ffffff;
+      font-weight: 500;
+      font-size: 14px;
+    }
+    a.footer-button.hubfree{
+      border: 1px solid #33475B;;
+      color: #33475B;
+      background-color: #ffffff;
+      margin: 0;
+    }
+    li.ultima-sequenza{
+      margin: 20px 0;
     }
