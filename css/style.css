@@ -427,7 +427,6 @@ nav.barlato{
     .riga-alta,
     .riga-bassa{
       width: 70%;
-      background-color: pink;
       margin: auto;
     }
     .riga-alta{
@@ -443,7 +442,7 @@ nav.barlato{
       height: 300px;
       background-color: lightgreen;
       float: left;
-      padding: 40px 0;
+      padding: 50px 0;
     }
     .partner,
     .start{
@@ -453,7 +452,12 @@ nav.barlato{
       float: left;
     }
     .customer{
+      padding-left: 7%;
+    }
+    .partner{
+      padding-top: 60px;
       text-align: center;
+      padding-left: 10px;
     }
     p.in-over,
     p.over{
@@ -477,4 +481,12 @@ nav.barlato{
       font-weight: 700;
       color: #33475B;
       margin-bottom: 30px;
+    }
+    img.loghi-partner{
+      display: inline-block;
+      width: 16%;
+      height: 30px;
+      vertical-align: middle;
+      object-fit: contain;
+      margin: 0 0 15px 30px;
     }
