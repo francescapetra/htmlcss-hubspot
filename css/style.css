@@ -563,10 +563,10 @@ nav.barlato{
     li.ultima-sequenza{
       margin: 20px 0;
     }
-    li.social-network{
+    .social-network{
       color: #ffffff;
       font-size: 16px;
-      margin-right: 25px;
+      margin-right: 10px;
     }
     div.lingue-disponibili{
      text-align: center;
