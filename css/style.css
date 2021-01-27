@@ -440,19 +440,17 @@ nav.barlato{
     .testimonial{
       width: 30%;
       height: 300px;
-      background-color: lightgreen;
       float: left;
-      padding: 50px 0;
     }
     .partner,
     .start{
       width: 70%;
-      height: 300px;
-      background-color: lightblue;
+      height: 30px;
       float: left;
     }
     .customer{
       padding-left: 7%;
+      padding-top: 50px;
     }
     .partner{
       padding-top: 60px;
@@ -489,4 +487,20 @@ nav.barlato{
       vertical-align: middle;
       object-fit: contain;
       margin: 0 0 15px 30px;
+    }
+    h3.titolo-over.down{
+      font-size: 25px;
+      font-weight: 800;
+      width: 65%;
+      padding: 25px 10px 0 0;
+    }
+    p.font-taglio.down{
+      width: 65%;
+      margin-bottom: 60px;
+    }
+    img.woman{
+      width: 80%;
+      object-fit: cover;
+      padding: 0;
+      margin-left: 65px;
     }
