@@ -543,10 +543,15 @@ nav.barlato{
       line-height: 2.5;
       display: block;
     }
-    a.link-footer{
+    a.link-footer,
+    a.slang,
+    a.link-end{
       color: #ffffff;
       font-weight: 500;
       font-size: 14px;
+    }
+    a.slang{
+      margin-left: 15px;
     }
     a.footer-button.hubfree{
       border: 1px solid #33475B;;
@@ -562,4 +567,29 @@ nav.barlato{
       color: #ffffff;
       font-size: 16px;
       margin-right: 25px;
+    }
+    div.lingue-disponibili{
+     text-align: center;
+     padding-top: 70px;
+    }
+    hr.end-separatore{
+      height: 1px;
+      background-color: #ffffff;
+      margin-top: 20px;
+    }
+    div.container-nav-fine{
+      height: 100%;
+      position: relative;
+    }
+    img.logo-gray{
+      background-color: red;
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      margin-top: 20px;
+    }
+    a.link-end{
+      /* position: absolute; */
+      display: inline;
+      margin-right: 10px;
     }
