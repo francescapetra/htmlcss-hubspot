@@ -11,7 +11,8 @@ body{
 .col-container::after,
 .gradiente-container::after,
 .riga-alta::after,
-.riga-bassa::after{
+.riga-bassa::after,
+.prima-sezione-footer::after{
  content: "";
  display: block;
  clear: both;
@@ -33,8 +34,11 @@ body{
 }
 nav,
 ul:not(.listaincol),
-li:not(.sequenza){
+li:not(.ultima-sequenza){
   display: inline-block;
+}
+li.sequenza{
+  display: block;
 }
 ul, li, a{
   text-decoration: none;
@@ -421,7 +425,7 @@ nav.barlato{
     }
     .ultimo-container{
       width: 100%;
-      height: 650px;
+      height: 670px;
       margin: auto;
     }
     .riga-alta,
@@ -492,7 +496,7 @@ nav.barlato{
       font-size: 25px;
       font-weight: 800;
       width: 65%;
-      padding: 25px 10px 0 0;
+      padding: 0px 10px 25px 0;
     }
     p.font-taglio.down{
       width: 60%;
@@ -505,23 +509,27 @@ nav.barlato{
       margin-left: 65px;
     }
     footer{
-      height: 550px;
+      height: 600px;
       background-color: #33475B;
     }
     .footer-container{
       width: 70%;
       height: 550px;
-      background-color: pink;
       margin: auto;
       padding-top: 20px;
     }
     .sub-colonne{
       width: 23%;
-      height: 250px;
-      background-color: green;
+      height: 290px;
       float: left;
       margin-right: 20px;
       padding-top: 10px;
+    }
+    .pie-di-pagina{
+      width: 100%;
+      height: 220px;
+      background-color: green;
+      margin-top: 40px;
     }
     /* .sub-colonne:not(:last-child){} */
     h5{
@@ -532,7 +540,8 @@ nav.barlato{
       margin-bottom: 25px;
     }
     li.sequenza.credit-lista{
-      line-height: 2;
+      line-height: 2.5;
+      display: block;
     }
     a.link-footer{
       color: #ffffff;
@@ -544,7 +553,13 @@ nav.barlato{
       color: #33475B;
       background-color: #ffffff;
       margin: 0;
+      display: block;
     }
     li.ultima-sequenza{
       margin: 20px 0;
+    }
+    li.social-network{
+      color: #ffffff;
+      font-size: 16px;
+      margin-right: 25px;
     }
