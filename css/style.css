@@ -12,7 +12,8 @@ body{
 .gradiente-container::after,
 .riga-alta::after,
 .riga-bassa::after,
-.prima-sezione-footer::after{
+.prima-sezione-footer::after,
+.container-nav-fine::after{
  content: "";
  display: block;
  clear: both;
@@ -540,45 +541,33 @@ img.img-colonne{
     background-color: #d1d6d9;;
     margin-top: 10px;
   }
-  div.container-nav-fine,
-  div.link-fine{
+  div.container-nav-fine{
     padding-top: 30px;
   }
   div.container-nav-fine{
     text-align: left;
-    position: relative;
-    padding-bottom: 30px;
   }
   img.logo-gray{
-    left: 0;
-    padding-bottom: 10px;
     margin-top: 5px;
     display: inline-block;
+    vertical-align: middle;
   }
-  div.copy{
-    position: relative;
+  ul.nota-legale{
+    float: right;
+    vertical-align: middle;
   }
-  p.copyright,
   a.link-end-up,
   a.link-end-down{
-    bottom: 15px;
     display: block;
   }
   p.copyright{
-    left: 0;
-    bottom: 20px;
-    position: absolute;
-    padding-top: 10px;
-    color: #ffffff;
+    text-align: left;
+    padding-bottom: 35px;
   }
   a.link-end-up,
   a.link-end-down{
-    position: absolute;
     padding-bottom: 40px;
   }
   a.link-end-down{
-    right: 0;
-  }
-  a.link-end-up{
-    right: 110px;
+    margin-left: 10px;
   }
