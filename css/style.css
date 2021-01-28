@@ -92,8 +92,8 @@ a.hubfree{
   font-weight: 600;
   font-size: 12px;
   }
-hr, hr.diviso-col{
-  background-color: #33475B;
+hr.diviso-col{
+
 }
 img.logo{
   display: inline-block;
@@ -311,6 +311,7 @@ img.img-colonne{
   hr.diviso-col{
     width: 80%;
     margin: auto;
+    background-color: #33475B;
   }
   /* cambia */
   p.popular.in-col{
@@ -355,15 +356,11 @@ img.img-colonne{
     height: 150px;
     float: left;
   }
-  /* le devo raggruppare */
   .box.uno{
     border-right: 1px solid white;
-    border-bottom: 1px solid white;
-    text-align: center;
-    color: #ffffff;
-    padding: 35px 0;
   }
-  .box.tre{
+  .box.tre,
+  .box.uno{
     border-bottom: 1px solid white;
     text-align: center;
     color: #ffffff;
@@ -371,23 +368,14 @@ img.img-colonne{
   }
   .box.due{
     border-right: 1px solid white;
+  }
+  .box.quattro,
+  .box.due{
     text-align: center;
     color: #ffffff;
     padding: 20px 0;
   }
-  .box.quattro{
-    text-align: center;
-    color: #ffffff;
-    padding: 20px 0;
-  }
-  img.agency,
-  img.blog,
-  img.connect,
-  img.academy,
-  img.inbound,
-  img.growth,
-  img.globe,
-  img.followers{
+  img.griglia{
   object-fit: cover;
   display: block;
   margin: auto
