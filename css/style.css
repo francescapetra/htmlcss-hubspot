@@ -563,10 +563,9 @@ img.img-colonne{
   p.copyright{
     text-align: left;
     padding-bottom: 35px;
-  }
-  a.link-end-up,
-  a.link-end-down{
-    padding-bottom: 40px;
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 10px;
   }
   a.link-end-down{
     margin-left: 10px;
