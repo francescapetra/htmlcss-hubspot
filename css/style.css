@@ -316,14 +316,12 @@ img.img-colonne{
   }
   section.gradiente{
     width: 100%;
-    height: 600px;
     background-image: linear-gradient(45deg,#00a4bd,#00bda5);
   }
   .gradiente-container{
     width: 70%;
-    height: 550px;
     margin: auto;
-    padding-top: 35px;
+    padding:35px 0 90px 0;
   }
   h4{
     text-align: center;
@@ -409,7 +407,6 @@ img.img-colonne{
   }
   .ultimo-container{
     width: 100%;
-    height: 670px;
     margin: auto;
   }
   .riga-alta,
@@ -417,33 +414,26 @@ img.img-colonne{
     width: 70%;
     margin: auto;
   }
-  .riga-alta{
-    height: 300px;
-    margin-bottom: 1px;
-  }
-  .riga-bassa{
-    height: 300px;
-  }
   .customer,
   .testimonial{
     width: 30%;
-    height: 300px;
     float: left;
   }
   .partner,
   .start{
     width: 70%;
-    height: 30px;
     float: left;
+  }
+  .start{
+    padding-top:25px;
   }
   .customer{
     padding-left: 7%;
-    padding-top: 50px;
+    padding-top: 55px;
   }
   .partner{
-    padding-top: 60px;
+    padding: 90px 80px;
     text-align: center;
-    padding-left: 10px;
   }
   p.in-over,
   p.over{
@@ -467,14 +457,15 @@ img.img-colonne{
     font-weight: 700;
     color: #33475B;
     margin-bottom: 30px;
+    padding-top: 15px;
   }
   img.loghi-partner{
     display: inline-block;
-    width: 16%;
+    width: calc(25% - 4px);
     height: 30px;
     vertical-align: middle;
     object-fit: contain;
-    margin: 0 0 15px 30px;
+    margin-bottom: 30px;
   }
   h3.titolo-over.down{
     font-size: 25px;
@@ -489,8 +480,6 @@ img.img-colonne{
   img.woman{
     width: 85%;
     object-fit: cover;
-    padding: 0;
-    margin-left: 65px;
   }
   footer{
     height: 600px;
