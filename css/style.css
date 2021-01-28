@@ -91,6 +91,7 @@ a.hubfree{
   color: white;
   font-weight: 600;
   font-size: 12px;
+  display: inline-block;
   }
 hr.diviso-col{
 
@@ -114,7 +115,7 @@ nav.barlato{
   background-color: #FFF4EF;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-position: 105% 0%;
+  background-position: 105% 3%;
   height: 600px;
 }
 .sottocontainer{
@@ -470,7 +471,6 @@ img.img-colonne{
   }
   p.font-taglio.down{
     width: 60%;
-    margin-bottom: 60px;
   }
   img.woman{
     width: 85%;
@@ -492,7 +492,6 @@ img.img-colonne{
   }
   .pie-di-pagina{
     width: 100%;
-    height: 220px;
     margin-top: 40px;
   }
   h5{
@@ -543,33 +542,43 @@ img.img-colonne{
   }
   div.container-nav-fine,
   div.link-fine{
-    width: 50%;
-    float: left;
     padding-top: 30px;
   }
   div.container-nav-fine{
     text-align: left;
-  }
-  div.link-fine{
-    text-align: right;
-    padding-top: 40px;
+    position: relative;
+    padding-bottom: 30px;
   }
   img.logo-gray{
     left: 0;
-    top: 20px;
-    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
     display: inline-block;
+  }
+  div.copy{
+    position: relative;
   }
   p.copyright,
   a.link-end-up,
   a.link-end-down{
     bottom: 15px;
+    display: block;
   }
-  a.copyright{
+  p.copyright{
     left: 0;
+    bottom: 20px;
+    position: absolute;
+    padding-top: 10px;
+    color: #ffffff;
   }
   a.link-end-up,
   a.link-end-down{
-    display: inline-block;
-    bottom: 45px;
+    position: absolute;
+    padding-bottom: 40px;
+  }
+  a.link-end-down{
+    right: 0;
+  }
+  a.linkend-up{
+    right:110px;
   }
