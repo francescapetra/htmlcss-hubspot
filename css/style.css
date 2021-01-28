@@ -37,7 +37,7 @@ li:not(.ultima-sequenza){
   display: inline-block;
 }
 li.sequenza{
-  display: block;
+  display: table;
 }
 ul, li, a{
   text-decoration: none;
@@ -81,6 +81,7 @@ a.login{
   border-radius: 5px;
   font-weight: 600;
   font-size: 12px;
+  margin-right: 20px;
 }
 a.hubfree{
   border: 2px white;
@@ -88,11 +89,10 @@ a.hubfree{
   background-color: #FE775A;
   border-radius: 5px;
   color: white;
-  margin-left: 20px;
   font-weight: 600;
   font-size: 12px;
   }
-hr{
+hr, hr.diviso-col{
   background-color: #33475B;
 }
 img.logo{
@@ -197,16 +197,17 @@ h2{
 .learn-more{
   width: 33%;
   float: left;
+  text-align: center;
 }
 img.libro{
   width: 40%;
-  object-fit: contain;
-  margin: 60px 0 35px 30%;
+  object-fit: cover;
   display: block;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 35px;
 }
 .hubfree.learn{
-  margin-top: 20px;
-  margin-left: 30%;
   padding: 20px 35px;
 }
 .hub-spot{
@@ -233,6 +234,10 @@ p.popular{
   font-weight: bold;
   display: inline-block;
   vertical-align: middle;
+}
+div.list-col{
+  margin: auto;
+  text-align: center;
 }
 hr.feature{
   display: inline-block;
@@ -265,6 +270,8 @@ i.about{
   border-radius: 5px;
   box-shadow: 3px 2px 2px 2px #E6ECF1;
   padding-bottom: 20px;
+  margin: auto;
+  text-align: center;
 }
 .col.ct{
   margin: 0 53px;
@@ -281,10 +288,6 @@ img.img-colonne{
   }
   img.img-colonne.desk{
     width: 23%;
-  }
-  .col.sx,
-  .col.dx,
-  .col.ct{
   }
   .titolo-col{
     text-align: center;
@@ -306,13 +309,14 @@ img.img-colonne{
     width: 80%;
     margin: auto;
   }
+  /* cambia */
   p.popular.in-col{
-    margin: 30px 24%;
-    text-align: center;
+    padding: 30px 0;
   }
   a.hubfree.learn.more{
     margin-top: 35px;
     display: inline-block;
+    text-align: center;
   }
   section.gradiente{
     width: 100%;
