@@ -114,8 +114,8 @@ nav.barlato{
   background-color: #FFF4EF;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-size: 85%;
-  background-position: 105% 3%;
+  background-position: 105% 0%;
+  height: 600px;
 }
 .sottocontainer{
   margin: auto;
